@@ -1,0 +1,90 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
+body{
+    background-image:url("images/na.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 30px;
+    
+    
+}
+
+.nav{
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+/*.search{
+    width: 45%;
+    border-radius: 30px;
+    border: 8ECDDD;
+    appearance: red;
+}*/
+.search {
+    background: #ffffff;
+    max-width: 55rem;
+    width: 50%;
+    height: 2rem;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    border: 0.1rem solid #eeeeee;
+    &--input {
+      width: 85%;
+      height: 3rem;
+      padding: 1rem 0;
+      background: #eeeeee;
+      font-size: 1.6rem;
+      margin-left: 0.5rem;
+      border: none;
+      outline: 0;
+    }
+    &--img {
+      height: 2rem;
+      border-radius: 0.5rem;
+    }
+  }
+
+  /*Section*/
+  .section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .card{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  .images{
+    max-width: 130px;
+    border-radius:20px;
+  }
+  
+  .voice{
+    width: 120px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+
+  .voice::-webkit-media-controls-play-button{
+          background-color:rgb(90, 219, 68);
+          border-radius:500px;
+  }
+  .voice::-webkit-media-controls-panel{
+    background-color:rgb(40, 109, 11);
+}
